@@ -1,0 +1,38 @@
+{
+  "name": "ShuleBora",
+  "displayName": "ShuleBora",
+  "expo": {
+    "name": "ShuleBora",
+    "slug": "ShuleBora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.shulebora.shulebora",
+      "versionCode": 1,
+      "permissions": [
+        "android.permissions.CAMERA",
+        "android.permissions.READ_INTERNAL_STORAGE",
+        "android.permissions.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.WRITE_INTERNAL_STORAGE"
+      ]
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "web": {
+      "favicon": "./app/assets/icon.png"
+    },
+    "ios": {
+      "requireFullScreen": true
+    },
+    "assetBundlePatterns": ["**/*"],
+    "description": ""
+  }
+}
